@@ -4,3 +4,34 @@ body {
   background-color: #fdf3f7;
   font-family: 'Oxygen', sans-serif;
 }
+
+#header-nav {
+  background-color: rgb(255, 198, 129);
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img{
+  background: url('/images/Food-icon_large.png') no-repeat;
+  width: 160px;
+  height: 160px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: 'Josefin Sans';
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  text-shadow: 1px 1px  1px #222;
+  margin-top: 55px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus{
+  text-decoration: none;
+}
